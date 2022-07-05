@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 p {
     text-align: justify;
 }
 
-.orange-color span {
+.orange-color {
     color: orange;
 }
 
@@ -28,6 +32,7 @@ p {
 
 .half-width img {
     width: 80%;
+    margin-top: 30px;
 }
 
 .link-button {
@@ -60,11 +65,23 @@ p {
     box-shadow: 10px 10px 40px gray;
 }
 
-.orangie {
-    color: orange;
-}
+
 
 .experience {
     background-image: url(img/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-dev {
+    border-left: 7px solid tomato;
+}
+
+#baby-dev {
+    border-left: 7px solid blue;
+}
+
+
+footer p {
+    text-align: center;
 }
