@@ -15,7 +15,7 @@ p {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -49,4 +49,22 @@ section {
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.orangie {
+    color: orange;
+}
+
+.experience {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
 }
